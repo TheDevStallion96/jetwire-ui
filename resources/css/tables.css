@@ -1,0 +1,25 @@
+/* Default Table Classes */
+.x-table {
+    @apply min-w-full w-full divide-y divide-gray-200;
+}
+.x-table-heading {
+    @apply px-6 py-3 text-left whitespace-nowrap bg-gray-50;
+}
+.x-table-heading-text {
+    @apply text-xs font-medium uppercase tracking-wide text-gray-700;
+}
+.x-table-body {
+    @apply bg-white divide-y divide-gray-200;
+}
+.x-table-row {
+    @apply bg-white hover:bg-purple-50 transition duration-200 ease-in-out;
+}
+.x-table-cell {
+    @apply px-6 py-4 text-sm whitespace-nowrap;
+}
+.x-table-actions {
+    @apply px-6 py-4 whitespace-nowrap;
+}
+.x-table-action-link {
+    @apply text-purple-500 hover:text-purple-600 text-sm font-medium mr-2 transition duration-150 ease-in-out;
+}
